@@ -18,7 +18,20 @@ var vigeniere= vigeniere || (function(){
                     return abc[pos];
                 }
                 return c;
-            }
-        })
-    }
-})
+            };
+        })();
+        var re= (/([a-z])/ig);
+        
+        return String(txt).replace(re, function(match){
+            return replace(match); 
+        });
+    };
+    return{
+        encode: function(txt, desp){
+            return proceso(txt, desp, true);
+        },
+        decode : function(txt, desp){
+            return proceso(txt,desp,false);
+        }
+    };
+})();
