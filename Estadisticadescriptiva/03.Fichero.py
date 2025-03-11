@@ -4,7 +4,7 @@ import pandas as pd
 
 def cotizacion(fichero):
     df= pd.read_csv(fichero, sep=';',
-        decimal=',', thousands=',',
+        decimal=',', thousands='.',
         index_col=0)
     return pd.DataFrame([df.min(), df.max(), df.mean(), df.std()], 
     index=['Minimo','Maximo','Media', 'Desviación estandar'])
