@@ -10,35 +10,38 @@
     <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
-    <div class="container" >
-        <h1>Cifrado Vigene</h1>
+    <div class="container">
+        <h1>Cifrado Vigenere</h1>
         <hr>
-        <div class="center-block" >
-            <article class="datos" >
-                <h3>Texto a cifrar: </h3>
+        <div class="center-block">
+            <article class="datos">
+                <h3>Texto a cifrar:</h3>
+                <input type="text" id="txt" class="form-control">
+                
+                <h3>Ingresa la clave secreta:</h3>
+                <input type="text" id="txtclave" class="form-control" onpaste="return false;" ondrop="return false;">
+                
                 <br>
-                <input type="text" id="txt">
+                <input type="button" class="btn btn-primary" value="Cifrar" 
+                       onclick="codificar(document.getElementById('txt').value, document.getElementById('txtclave').value)">
+                
+                <input type="button" class="btn btn-danger" value="Descifrar" 
+                       onclick="decodificar(document.getElementById('txt').value, document.getElementById('txtclave').value)">
+                
+                <input type="button" class="btn btn-warning" value="Reiniciar" 
+                       onclick="reiniciar()">
+                
+                <h3>Resultado:</h3>
+                <textarea id="respuesta" class="form-control" readonly></textarea>
+                
                 <br>
-                <input type="button" class="btn btn-info" value="Cifrar" onclick="">
-                <input type="button" class="btn btn-info" value="Descifrar" onclick="">
-                <input type="button" class="btn btn-info" value="Reiniciar" onclick="">
-                <br>
-                <h3>Ingresa la clase secreta: </h3>
-                <br>
-                <input type="text" name="posicionamiento" id="txtclave" onpaste="return false;" ondrop="return false;">
-                <br>
-                <h3>Resultado: </h3>
-                <br>
-                <textarea name="respuesta" id="respuesta" onpaste="return false;" ondrop="return false;"></textarea>
-                <br>
-                <input type="button" class="btn btn-info" value="Copiar" onclick="">
+                <input type="button" class="btn btn-info" value="Copiar" onclick="copiarTexto()">
             </article>
         </div>
-
     </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js "></script>
-    <script src="./js/cesar.js" ></script>
+    <script src="./js/vigeniere.js" ></script>
 </body>
 </html>
