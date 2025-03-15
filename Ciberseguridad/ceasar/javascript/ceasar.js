@@ -1,10 +1,7 @@
 const desplazamiento = document.getElementById("desplazamiento");
 const texto = document.getElementById("texto");
 const textoCifrado = document.getElementById("cifrado");
-const textoDescifradoInput = document.getElementById("descifrado");
-const textoDescifradoOutput = document.getElementById("textoDescifrado");
-const btnCifrar = document.createElement("button");
-const btnDescifrar = document.createElement("button");
+const textoDescifrado = document.getElementById("descifrado");
 
 // Asegurar que el script se ejecute cuando el DOM está completamente cargado
 document.addEventListener("DOMContentLoaded", function() {
@@ -13,7 +10,6 @@ document.addEventListener("DOMContentLoaded", function() {
         textoCifrado.value = textoIngresado.split('').map( c => {
             let mayus = (c === c.toUpperCase());
             let valorEntero = c.toLowerCase().charCodeAt(0);
-            
             if(valorEntero >= 97 && valorEntero <= 122){
                 const valorDesplazamiento = parseInt(desplazamiento.value);
                 if(valorEntero + valorDesplazamiento > 122){
@@ -25,11 +21,13 @@ document.addEventListener("DOMContentLoaded", function() {
             let cifrado = String.fromCharCode(valorEntero);
             return mayus ? cifrado.toUpperCase() : cifrado;
         }).join('');
+        texto.value = ""; // Limpiar el campo original después de cifrar
     }
 
     function descifrado(){
-        const textoIngresado = textoDescifradoInput.value;
-        textoDescifradoOutput.value = textoIngresado.split('').map( c => {
+        const textoIngresado = textoCifrado.value; // Tomar la palabra cifrada
+        textoCifrado.value = ""; // Limpiar la caja de texto cifrado
+        textoDescifrado.value = textoIngresado.split('').map( c => {
             let mayus = (c === c.toUpperCase());
             let valorEntero = c.toLowerCase().charCodeAt(0);
             if(valorEntero >= 97 && valorEntero <= 122){
@@ -44,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function() {
             return mayus ? descifrado.toUpperCase() : descifrado;
         }).join('');
     }
-    desplazamiento.addEventListener("change", cifrado);
+desplazamiento.addEventListener("change", cifrado);
 
     // Agregar eventos a los botones (si están en el HTML)
     const btnCifrar = document.querySelector(".btn-primary");
