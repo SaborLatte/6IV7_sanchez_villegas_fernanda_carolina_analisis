@@ -19,7 +19,7 @@ print('El adeudo total es:', adeudo)
 # 4. Utilidad
 Utilidad = ((df['ventas_tot'] - df['adeudo_actual']) / df['ventas_tot']) * 100
 Utilidad1 = Utilidad.round(2)
-print(Utilidad1, ' La utilidad')
+print(f"Utilidad promedio: {Utilidad.mean():.2f}%")
 
 # 5. Porcentaje de socios con y sin adeudo
 adeudo_si = df[df['B_adeudo'] == 'Con adeudo'].shape[0]
