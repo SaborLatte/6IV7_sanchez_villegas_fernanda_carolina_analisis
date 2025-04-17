@@ -12,6 +12,7 @@ function cifrarMensaje() {
     const mensaje = document.getElementById('mensaje').value;
     const clave = document.getElementById('clave-encriptar').value;
 
+
     if (clave.length < 8) {
         alert("La clave debe tener al menos 8 caracteres.");
         return;
