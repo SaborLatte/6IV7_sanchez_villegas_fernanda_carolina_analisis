@@ -1,11 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cifrado y Descifrado AES</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Cifrado AES</h1>
+        <div id="main-menu">
+            <button onclick="showEncrypt()">Cifrar</button>
+            <button onclick="showDecrypt()">Descifrar</button>
+        </div>
+
+        <div id="encrypt-section" class="section hidden">
+            <h2>Cifrar Mensaje</h2>
+            <textarea id="mensaje" placeholder="Escribe tu mensaje..."></textarea>
+            <input type="password" id="clave-encriptar" placeholder="Clave de cifrado (mín. 8 caracteres)">
+            <button onclick="cifrarMensaje()">Cifrar y Descargar</button>
+        </div>
+
+        <div id="decrypt-section" class="section hidden">
+            <h2>Descifrar Mensaje</h2>
+            <input type="file" id="archivo-cifrado">
+            <input type="password" id="clave-descifrar" placeholder="Clave de descifrado">
+            <button onclick="descifrarArchivo()">Descifrar</button>
+            <textarea id="mensaje-descifrado" placeholder="Mensaje descifrado..." readonly></textarea>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js"></script>
+    <script src="aes.js"></script>
 </body>
 </html>
