@@ -1,0 +1,79 @@
+lugar_afectado,tipo_dano,zona,lat,lon
+casa,derrumbe parcial,alvaro obregon,19.3673655,-99.2686653
+departamentos,derrumbe total,alvaro obregon,19.3622984,-99.1871811
+oficinas,derrumbe parcial,alvaro obregon,19.3095318,-99.1745424
+casa,derrumbe parcial,alvaro obregon,19.3871109,-99.1922417
+departamentos,derrumbe parcial,alvaro obregon,19.3367846,-99.2284202
+comercio,derrumbe total,alvaro obregon,19.338713,-99.2412649
+otro,derrumbe parcial,alvaro obregon,19.3850289,-99.1944048
+departamentos,derrumbe parcial,alvaro obregon,28.9371365,-81.9489465
+departamentos,derrumbe parcial,alvaro obregon,19.375158,-99.214899
+otro,derrumbe parcial,alvaro obtegon,19.3747453,-99.2107247
+casa,derrumbe total,asuncion nochixtlan,17.4587546,-97.2218628
+casa,derrumbe parcial,azcapotzalco,19.4727367,-99.187195
+otro,derrumbe parcial,azcapotzalco,19.4769552,-99.1836924
+departamentos,derrumbe parcial,azcapotzalco,19.495943,-99.1854692
+casa,derrumbe parcial,azcapotzalco,19.4811894,-99.1952541
+departamentos,derrumbe parcial,benito juarez,19.3376619,-99.0404272
+otro,derrumbe barda,benito juarez,19.3592212,-99.1518292
+casa,derrumbe parcial,benito juarez,19.4017453,-99.1624983
+comercio,derrumbe parcial,benito juarez,19.3914677,-99.1752483
+comercio,derrumbe parcial,benito juarez,19.3921015,-99.1821698
+otro,derrumbe parcial,benito juarez,19.3962607,-99.1558941
+casa,derrumbe total,benito juarez,19.365477,-99.1650483
+departamentos,derrumbe total,benito juarez,19.3809905,-99.1784062
+departamentos,derrumbe parcial,benito juarez,19.390526,-99.1710035
+departamentos,derrumbe parcial,benito juarez,19.3738852,-99.1640868
+edificio,edificio inclinado,benito juarez,19.4014496,-99.1573027
+casa,derrumbe total,benito juarez,19.3772937,-99.1640462
+casa,derrumbe parcial,benito juarez,19.3804955,-99.1600106
+oficinas,derrumbe parcial,benito juarez,19.3807184,-99.1713012
+edificio,derrumbe parcial,benito juarez,19.3952498,-99.1449786
+departamentos,desplomes y ruptura de cimientos,benito juarez,19.3878751,-99.1410857
+comercio,derrumbe parcial,benito juarez,19.388433,-99.1682071
+casa,derrumbe parcial,benito juarez,19.386896,-99.1687511
+edificio,derrumbe parcial,benito juarez,19.3678352,-99.1422276
+otro,derrumbe parcial,benito juarez,19.4004104,-99.1433845
+departamentos,derrumbe parcial,benito juarez,19.3913161,-99.1572627
+comercio,derrumbe parcial,benito juarez,19.3758273,-99.1865555
+departamentos,derrumbe total,benito juarez,19.395576,-99.1430215
+comercio,derrumbe parcial,benito juarez,19.3959619,-99.1560554
+departamentos,fuga de gas,benito juarez,19.3952683,-99.1752645
+departamentos,derrumbe parcial,benito juarez,19.3950674,-99.1572234
+departamentos,derrumbe parcial,benito juarez,19.400497,-99.1611247
+departamentos,derrumbe parcial,benito juarez,19.3810116,-99.1656186
+departamentos,derrumbe parcial,benito juarez,19.4016523,-99.1492789
+casa,derrumbe parcial,benito juarez,19.380158,-99.1909814
+barda,derrumbe barda,benito juarez,19.3592264,-99.1453976
+casa,derrumbe total,benito juarez,19.3962684,-99.157399
+departamentos,derrumbe parcial,benito juarez,19.3735715,-99.1580866
+edificio,daño mayor,benito juarez,19.3688874,-99.1385673
+otro,derrumbe parcial,benito justez,19.3685973,-99.1502921
+departamentos,derrumbe sin especificar,centro,18.2747054,-96.0006523
+departamentos,derrumbe parcial,chalco,19.2407249,-98.8941696
+iglesia,derrumbe total,chicoloapan,19.4131423,-98.9023374
+casa,derrumbe parcial,colonia las salinas,19.4417099,-99.1451067
+casa,derrumbe parcial,colonia los pinos,17.5697463,-99.5149582
+departamentos,derrumbe parcial,coyoacan,19.3292159,-99.1222636
+edificio,derrumbe parcial,coyoacan,19.3357104,-99.1292171
+multifamiliar,derrumbe total,coyoacan,19.3470849,-99.1448247
+oficinas,derrumbe sin especificar,coyoacan,19.3041593,-99.194311
+departamentos,derrumbe total,coyoacan,19.3186521,-99.1065849
+casa,derrumbe parcial,coyoacan,19.3188895,-99.1843676
+edificio,derrumbe total,coyoacan,19.3458444,-99.1496834
+departamentos,derrumbe total,coyoacan,19.3430873,-99.1560105
+comercio,derrumbe total,coyoacan,19.3077428,-99.1549338
+barda,derrumbe barda,coyoacan,19.3473728,-99.1323828
+oficinas,derrumbe parcial,coyoacan,19.3521142,-99.1473629
+escuela,derrumbe total,coyoacan,19.3345506,-99.1814547
+casa,derrumbe parcial,coyoacan,19.3433,-99.1428332
+domicilio,derrumbe barda,coyoacan,19.344687,99.1400809
+barda,derrumbe barda,coyoacan,19.3469506,-99.1607949
+otro,derrumbe parcial,coyoacan,19.340035,-99.1842154
+otro,derrumbe parcial,cuahtemoc,19.4230836,-99.1351227
+departamentos,derrumbe parcial,cuahutemoc,19.4342192,-99.163205
+oficinas,derrumbe parcial,cuahutemoc,19.4268112,-99.1566078
+otro,derrumbe parcial,cuahutemoc,19.4059563,-99.1568718
+departamentos,derrumbe parcial,cuahutemoc,19.4294922,-99.1478193
+casa,derrumbe parcial,cuajimalpa de morelos,19.3438477,-99.2756406
+casa,derrumbe parcial,cuauhtemoc,19.4188824,-99.1771098
